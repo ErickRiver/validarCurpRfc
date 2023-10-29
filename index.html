@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Validador de RFC y CURP</title>
+</head>
+
+<body>
+    <div id="main">
+        
+        <div class="contenedor-inputs">
+            <h1>VALIDADOR DE RFC Y CURP</h1>
+            <input type="text" id="rfc" placeholder="Escribe tu RFC" maxlength="13" required>
+            <input type="text" id="curp" placeholder="Escribe tu CURP" maxlength="18" required>
+            <p id="resultadoCurp"></p>
+            <p id="resultadoRfc"></p>
+        </div>
+
+        <div class="botones">
+            <button class="btn btn1" id="btnValidarRfc"><span>Validar RFC</span></button>
+            <button class="btn btn2" id="btnValidarCurp"><span>Validar CURP</span></button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
